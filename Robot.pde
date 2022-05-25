@@ -60,6 +60,6 @@ class Robot extends Enemy {
 	}else{
 		Keep moving!
 	}
-
+	hi
 	*/
 }
