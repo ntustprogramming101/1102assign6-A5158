@@ -29,7 +29,7 @@ class Clock extends Item {
 		    if(isHit(clockX[i], clockY[i], SOIL_SIZE, SOIL_SIZE, player.x, player.y, player.w, player.h)){
 
 				addTime(CLOCK_BONUS_SECONDS);
-				clockX[i] = clockY[i] = -1000; // Now that they're objects, toggle isAlive instead of throwing them away from screen
+				// Now that they're objects, toggle isAlive instead of throwing them away from screen
 
 			}
 
