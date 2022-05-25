@@ -31,7 +31,7 @@ class Cabbage extends Item {
 
 				player.health ++;
         isAlive=false;
-				//cabbageX[i] = cabbageY[i] = -1000; // Now that they're objects, toggle isAlive instead of throwing them away from screen
+				// Now that they're objects, toggle isAlive instead of throwing them away from screen
 
 			}
 
