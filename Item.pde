@@ -1,22 +1,19 @@
-class Enemy {
+class Item {
+	boolean isAlive;
 	float x, y;
 	float w = SOIL_SIZE;
 	float h = SOIL_SIZE;
-
-	void checkCollision(Player player){
-
-		if(isHit(x, y, w, h, player.x, player.y, player.w, player.h)){
-
-			player.hurt();
-
-		}
-	}
+  boolean eat;
+  
 
 	void display(){}
-	void update(){}
+	void checkCollision(Player player){}
 
-	Enemy(float x, float y){
+	Item(float x, float y){
+    eat = true;
+		isAlive = true;
 		this.x = x;
 		this.y = y;
 	}
+  
 }
